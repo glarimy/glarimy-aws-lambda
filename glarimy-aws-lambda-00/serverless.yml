@@ -1,0 +1,11 @@
+service: glarimy-lambda-00
+provider:
+  name: aws
+  runtime: nodejs6.10
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: glarimy/hello
+          method: get
