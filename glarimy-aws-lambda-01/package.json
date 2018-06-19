@@ -1,0 +1,14 @@
+{
+  "name": "glarimy-aws-lambda-01",
+  "version": "1.0.0",
+  "description": "illustration on serverless-aws-lambda-node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krishna Mohan Koyya",
+  "license": "ISC",
+  "devDependencies": {
+    "lambda-local": "^1.5.1",
+    "serverless": "1.27.3"
+  }
+}
